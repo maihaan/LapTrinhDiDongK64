@@ -1,0 +1,6 @@
+Bước 1: Cài đặt IIS (Internet Information Service)
+Bước 2: Đưa website lên IIS (Lưu ý số Cổng của Website)
+url = http://localhost:port/api/...
+Bước 3: Lấy địa chỉ IP local của máy tính theo kết nối Internet đang sử dụng
+url = http://ip:port/api/...
+Bước 4: Test với url trên
