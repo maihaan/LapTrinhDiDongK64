@@ -4,12 +4,13 @@ using System.Data;
 using System.Linq;
 using System.Web;
 using System.Data.SqlClient;
+using System.Configuration;
 
 namespace MyCalendar.Controllers
 {
     public class DataAccess
     {
-        String sqlConnectioString = "Data Source=.\\MSSQL; initial catalog=MyCalendarDB; user id=mycalendar; password=MC123456;";
+        String sqlConnectioString = ConfigurationManager.ConnectionStrings["myConnection"].ToString();
         public DataTable Doc(String query)
         {
             SqlConnection con = new SqlConnection(sqlConnectioString);

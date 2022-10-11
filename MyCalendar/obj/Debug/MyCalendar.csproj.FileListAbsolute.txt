@@ -82,4 +82,3 @@ C:\Users\Admin\source\repos\MyCalendar\bin\Microsoft.CodeDom.Providers.DotNetCom
 C:\Users\Admin\source\repos\MyCalendar\obj\Debug\MyCalendar.csproj.CopyComplete
 C:\Users\Admin\source\repos\MyCalendar\obj\Debug\MyCalendar.dll
 C:\Users\Admin\source\repos\MyCalendar\obj\Debug\MyCalendar.pdb
-C:\Users\Admin\source\repos\MyCalendar\obj\Debug\MyCalendar.csproj.AssemblyReference.cache
